@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300..900;1,300..900&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --base-color: #2c2c2b;           /* dark background */
+    --text-color: #f5f5f5;           /* light text */
+    --primary-color: #ffc06e;
+    --secondary-color: #8D8DFF;
+    --card-color: #2a2a32;           /* card background */
+    --muted-text: #aaaaaa;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text-color);
+}
+
+body {
+    padding: 1em;
+    background-color: var(--base-color);
+}
+
+h1, h2, h3 {
+  font-family: 'Merriweather', 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    margin: 1em auto 3em auto;
+    width: min(1000px, 100%);
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center; 
+    list-style-type: none;
+    gap: 2em;
+}
+
+nav li:first-child {
+    margin-right: auto;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+nav a:hover {
+    color: var(--secondary-color);
+}
+
+header {
+    margin: 2em auto;
+    width: min(75em, 100%);
+    background-color: var(--card-color);
+    padding: 2.5em;
+    border-radius: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
+
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3em;
+}
+
+header img {
+    max-width: 260px;
+    border-radius: 0.6em;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+
+.text-container {
+    flex:0 1 34em;
+}
+
+h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0.3em;
+}
+
+.text-container p {
+    margin: 0.4em 0 0.8em 0;
+    font-size: 1rem;
+    color: var(--muted-text);
+}
+
+/* =========================
+   SECTION (ABOUT / PROJECTS)
+========================= */
+section {
+    margin: 2em auto;
+    width: min(75em, 100%);
+    background-color: var(--card-color);
+    padding: 2em;
+    border-radius: 1em;
+}
+
+/* =========================
+   FOOTER
+========================= */
+footer {
+    text-align: center;
+    padding: 1em;
+    font-size: 0.9rem;
+    color: var(--muted-text);
+}
+
+/* =========================
+   SOCIAL ICONS
+========================= */
+
+.social-links {
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.social-links a {
+    color: var(--muted-text);
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.social-links a:hover {
+    color: var(--secondary-color);
+    transform: scale(1.25);
+    transition: all 0.25s ease-in-out;
+}
