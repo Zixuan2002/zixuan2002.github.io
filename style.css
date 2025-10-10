@@ -43,9 +43,9 @@ nav ul {
 }
 
 nav li:first-child {
-    margin-right: -2em;
+    margin-right: 32px;
     font-family: 'Poppins';
-    font-weight: bold;
+    font-weight: 700;
     font-size: 1.1rem;
 }
 
