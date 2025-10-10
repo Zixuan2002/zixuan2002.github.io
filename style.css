@@ -21,14 +21,6 @@ html {
     scroll-behavior: smooth;
 }
 
-.divider{
-  height: 1px;
-  border: 0;
-  background: var(--divider);
-  width: min(var(--container), calc(100% - (var(--gutter) * 2)));
-  margin: 20px auto 40px;           /* space around the line */
-  border-radius: 999px;              /* soft ends */
-}
 
 body {
     padding: 1em;
@@ -68,6 +60,8 @@ nav a {
 
 nav a:hover {
     color: var(--secondary-color);
+    transform: scale(1.25);
+    transition: all 0.25s ease-in-out;
 }
 
 header {
