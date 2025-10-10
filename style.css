@@ -26,7 +26,7 @@ html {
   border: 0;
   background: var(--divider);
   width: min(var(--container), calc(100% - (var(--gutter) * 2)));
-  margin: 20px auto 40px;           /* space around the line */
+  margin: 10px auto 20px;           /* space around the line */
   border-radius: 999px;              /* soft ends */
 }
 
