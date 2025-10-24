@@ -158,3 +158,12 @@ footer {
     transform: scale(1.25);
     transition: all 0.25s ease-in-out;
 }
+
+.course-title-separation {
+    /* Adds 20 pixels of space above this paragraph */
+    margin-top: 20px;
+    
+    /* You might also want to increase the font size or make it bold */
+    font-size: 1.1em; 
+    font-weight: bold;
+}
