@@ -126,6 +126,28 @@ section {
     border-radius: 1em;
 }
 
+/* **FIX FOR HR (HORIZONTAL RULE) WIDTH** */
+section hr {
+    /* Limit width and center the HR within the section padding */
+    width: 90%; 
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* Style the appearance */
+    border: none;
+    height: 1px;
+    background-color: var(--muted-text); /* Use a defined color */
+    opacity: 0.5; /* Make it subtle */
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Add some spacing to list items in the section */
+section ul {
+    margin: 0.5rem 0 1rem 1.5rem; /* Adds space below the list */
+    list-style-type: disc; /* Ensures bullet points are visible */
+}
+
 /* =========================
    FOOTER
 ========================= */
